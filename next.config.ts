@@ -19,6 +19,14 @@ const nextConfig: NextConfig = {
         source: "/cc-fyi/_next/:path*",
         destination: "https://cc-fyi.vercel.app/_next/:path*",
       },
+      {
+        source: "/reresume/:path*",
+        destination: "https://reresume-beta.vercel.app/:path*",
+      },
+      {
+        source: "/reresume/_next/:path*",
+        destination: "https://reresume-beta.vercel.app/_next/:path*",
+      },
     ];
   },
 };
