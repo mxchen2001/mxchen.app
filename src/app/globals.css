@@ -1,7 +1,6 @@
 @import "tailwindcss";
 
 @theme inline {
-  --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
@@ -9,4 +8,28 @@ body {
   background: #000;
   color: #fff;
   font-family: var(--font-mono), ui-monospace, monospace;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+a {
+  color: #999;
+  transition: color 0.15s ease-in-out;
+}
+
+a:hover {
+  color: #fff;
+}
+
+blockquote {
+  border-left: 2px solid #444;
+  margin: 0;
+  padding: 0 15px;
+}
+
+blockquote footer {
+  color: #666;
+  font-size: 0.9em;
+  margin-top: 0.5em;
 }

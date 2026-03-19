@@ -1,0 +1,314 @@
+apps:
+  - emoji: "✈️"
+    name: Compensair
+    url: /compensair
+  - emoji: "💳"
+    name: cc-fyi
+    url: /cc-fyi
+  - emoji: "📄"
+    name: reresume
+    url: /reresume
+  - emoji: "🧠"
+    name: Silicon Notes
+    url: https://www.silicon-notes.blog/
+  - emoji: "🍜"
+    name: Umami
+    url: https://www.umamilabs.app/
+
+# All timeline entries below support a `date` field.
+# Formats: "2024", "2024-03", "2024-03-15"
+# Entries are sorted newest-first and grouped by year automatically.
+
+work:
+  - title: Software Engineer @ Roblox
+    desc: San Francisco, CA
+    date: "2023-08"
+    end: present
+  - title: Computer Architecture TA
+    desc: UT Austin — EE 460N
+    date: "2022-08"
+    end: "2023-05"
+  - title: Intern @ Roblox
+    desc: San Mateo, CA
+    date: "2022-06"
+    end: "2022-08"
+  - title: Intro to Computing TA
+    desc: UT Austin — EE 306
+    date: "2021-08"
+    end: "2021-12"
+  - title: Research Assistant
+    desc: UT Austin
+    date: "2021-06"
+    end: "2021-08"
+
+projects:
+  - name: cc-fyi
+    desc: Credit card rewards optimizer and comparison tool.
+    link: https://mxchen.app/cc-fyi
+    keywords: [Nextjs, React, TypeScript, TailwindCSS]
+    date: "2026"
+  - name: Compensair
+    desc: Flight compensation calculator and claim assistant.
+    link: https://mxchen.app/compensair
+    keywords: [Nextjs, React, TypeScript, TailwindCSS]
+    date: "2026"
+  - name: reResume
+    desc: Upgrade and find the gaps in your resume.
+    link: https://mxchen.app/reresume
+    keywords: [Nextjs, React, TypeScript, TailwindCSS]
+    date: "2026"
+  - name: Umami Labs
+    desc: Food and restaurant companion.
+    link: https://www.umamilabs.app/
+    keywords: [Nextjs, React, TypeScript]
+    date: "2026"
+  - name: Silicon Notes
+    desc: A place where I write down interesting things. Successor to Algo Coffee.
+    link: https://www.silicon-notes.blog/
+    keywords: [Nextjs, React, Markdown]
+    date: "2026"
+  - name: Lebi
+    desc: A restaurant discovery app that uses your location, weather, and mood to serve personalized picks you swipe through.
+    link: https://lebiapp.com
+    keywords: [Nextjs, React, TailwindCSS, OpenAI, Google Places API, TypeScript]
+    date: "2026"
+  - name: Engblogs
+    desc: Wanted an IOS version of engblogs.dev developed by @ishan0102.
+    link: https://www.engblogs.dev/
+    keywords: [Swift, Nextjs, IOS]
+    date: "2023"
+  - name: Algo Coffee
+    desc: A simple place where I write down some interesting things. Succeeded by Silicon Notes.
+    link: https://www.algorithms.coffee/
+    keywords: [React, Github, Algorithms, Markdown, Katex]
+    date: "2023"
+    archived: true
+  - name: source.css
+    desc: Got tired of trying to style websites manually, wanted a consistent theme I can use across my projects.
+    link: https://mxchen2001.github.io/source.css/
+    keywords: [CSS]
+    date: "2023"
+  - name: Vault
+    desc: An emulated shell with basic shell-like functionality where I keep some interesting discoveries.
+    link: https://mxchen2001.github.io/vault/
+    keywords: [React, Shell, Github, Algorithms, Optimization]
+    date: "2022"
+  - name: MergePad
+    desc: A web based collaborative code editor that uses Automerge (CRDT) to resolve simultaneous conflicts.
+    link: https://mxchen2001.github.io/crdt-editor/
+    keywords: [React, Socket.io, Automerge, CRDT, P2P]
+    date: "2022"
+  - name: Markdown Slides
+    desc: A web based slide editor/renderer that uses markdown for quick and easy editing.
+    link: https://mxchen2001.github.io/markdown-render/
+    keywords: [React, Material UI]
+    date: "2021"
+  - name: Flatter.page
+    desc: My custom react component library that I use for code blocks. Succeeded by source.css.
+    link: https://www.flatter.page
+    keywords: [React, Javascript, HTML]
+    date: "2021"
+    archived: true
+  - name: Snippets
+    desc: Chrome extension to keep code snippets in one place.
+    link: https://github.com/mxchen2001/snippets
+    keywords: [Javascript, HTML, SASS]
+    date: "2021"
+  - name: Ascii Diagrams
+    desc: A web based app that generates ascii diagrams from simple markup input.
+    link: https://mxchen2001.github.io/ascii-diagrams/
+    keywords: [React, Material UI]
+    date: "2020"
+  - name: Venmo Automation
+    desc: Send large scale Venmo transactions using a spreadsheet.
+    link: https://github.com/mxchen2001/Venmo-Automation
+    keywords: [ElectronJS, Python]
+    date: "2020"
+
+school_projects:
+  - name: x86 Processor in Structural Verilog
+    desc: A structural verilog implementation of the x86 processor. Unironically the hardest project I've ever done.
+    link: http://users.ece.utexas.edu/~patt/22s.382N/problemset/project/spec.html
+    keywords: [Verilog, x86, Microarchitecture]
+    date: "2022-04"
+  - name: Pictionary
+    desc: Play a game of pictionary with an AI.
+    link: https://github.com/ishan0102/pictionary
+    keywords: [Computer Vision, Python]
+    date: "2022-03"
+  - name: Commentary
+    desc: Sentiment analysis of tweet replies.
+    link: https://twittercommentary.netlify.app/
+    keywords: [NLP, Machine Learning, Python]
+    date: "2021"
+  - name: PINTOS/MOS
+    desc: A hobby operating system built for x86, inspired by PINTOS labs.
+    link: https://github.com/mxchen2001/mos
+    keywords: [NASM, C, Makefile]
+    date: "2021"
+  - name: Hack TX
+    desc: NLP app using Google's NLP engine to give feedback for job interviews.
+    link: https://github.com/ishan0102/hacktx-20
+    keywords: [React, Material UI, Python]
+    date: "2020-10"
+
+school:
+  - semester: Fall 2022
+    date: "2022-08"
+    classes:
+      - name: Parallel Computer Architecture
+        code: ECE 382N.10
+        professor: Derek Chiou
+        difficulty: 5
+      - name: Distributed Systems
+        code: ECE 382N.11
+        professor: Vijay K. Garg
+        difficulty: 4
+      - name: Engineering Program Analysis
+        code: ECE 361G
+        professor: Milos Gligoric
+        difficulty: 3
+      - name: Intro to Engineering Design
+        code: ECE 364D
+        professor: Leonard F. Register
+        difficulty: 1
+  - semester: Spring 2022
+    date: "2022-01"
+    classes:
+      - name: Microarchitecture
+        code: ECE 382N.19
+        professor: Yale Patt
+        difficulty: 5
+      - name: Data Science Principles
+        code: EE 461P
+        professor: Joydeep Ghosh
+        difficulty: 4
+      - name: Data Science Lab
+        code: EE 460J
+        professor: Constantine Caramanis
+        difficulty: 2
+      - name: Computer Vision
+        code: EE 379K
+        professor: Atlas Wang
+        difficulty: 4
+  - semester: Fall 2021
+    date: "2021-08"
+    classes:
+      - name: Digital Signal Processing
+        code: EE 351M
+        professor: Haris Vikalo
+        difficulty: 3
+      - name: Real-time Signal Processing Lab
+        code: EE 445S
+        professor: Brian Evans
+        difficulty: 3
+      - name: Digital Logic Design
+        code: EE 316
+        professor: Nur Touba
+        difficulty: 2
+      - name: Intro Real Analysis
+        code: M 361K
+        professor: Alexis Vasseur
+        difficulty: 4
+  - semester: Spring 2021
+    date: "2021-01"
+    classes:
+      - name: Operating Systems
+        code: EE 461S
+        professor: Ramesh Yerraballi
+        difficulty: 5
+      - name: Algorithms
+        code: EE 360C
+        professor: Pedro Santacruz
+        difficulty: 5
+      - name: Software Design Lab
+        code: EE 461L
+        professor: Abhay Samant
+        difficulty: 2
+      - name: Number Theory
+        code: M 328K
+        professor: Mirela Ciperiani
+        difficulty: 3
+  - semester: Fall 2020
+    date: "2020-08"
+    classes:
+      - name: Computer Architecture
+        code: EE 460N
+        professor: Yale Patt
+        difficulty: 5
+      - name: Data Structures II
+        code: EE 422C
+        professor: Vallath Nandakumar
+        difficulty: 3
+      - name: Engineering Communications
+        code: EE 333T
+        professor: Kristin Canfield
+        difficulty: 1
+      - name: Probability and Random Processes
+        code: M 351K
+        professor: Aristotle Arapostathis
+        difficulty: 4
+      - name: Linear Systems and Signals
+        code: M 313
+        professor: Jeffrey Andrews
+        difficulty: 4
+  - semester: Spring 2020
+    date: "2020-01"
+    classes:
+      - name: Software Design
+        code: EE 312H
+        professor: Milos Gligoric
+        difficulty: 3
+      - name: Intro to Embedded Systems
+        code: EE 319H
+        professor: Jonathan Valvano
+        difficulty: 3
+      - name: Circuit Theory
+        code: EE 411
+        professor: Earl Swartzlander
+        difficulty: 2
+      - name: Linear Algebra
+        code: M 340L
+        professor: John Gilbert
+        difficulty: 4
+      - name: Discrete Math
+        code: M 325K
+        professor: Kanthimathi Sathasivan
+        difficulty: 2
+  - semester: Fall 2019
+    date: "2019-08"
+    classes:
+      - name: Intro to Computing
+        code: EE 306
+        professor: Yale Patt
+        difficulty: 2
+      - name: Intro to Electrical Engineering
+        code: EE 302
+        professor: Seth Bank
+        difficulty: 2
+      - name: Differential Equations
+        code: EE 427J
+        professor: John Meth
+        difficulty: 2
+
+blog:
+  - title: MLE and MAP
+    desc: A gentle introduction to MLE and MAP estimation.
+    url: https://towardsdatascience.com/a-gentle-introduction-to-maximum-likelihood-estimation-and-maximum-a-posteriori-estimation-d7c318f9d22d
+    date: "2022-04-05"
+  - title: Shannon and Entropy
+    desc: Information entropy, recommended by my Data Science Lab professor.
+    url: https://math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf
+    date: "2022-03-05"
+  - title: References for Computer Architecture
+    desc: References from UC Berkeley for computer architecture.
+    url: https://people.eecs.berkeley.edu/~kubitron/courses/cs252-S07/lectures/
+    date: "2022-02-17"
+  - title: Good Linear Algebra Read
+    desc: Recommended by my Computer Vision professor.
+    url: https://www.deeplearningbook.org/contents/linear_algebra.html
+    date: "2022-02-15"
+  - title: Stanford Compilers
+    desc: Free Stanford compilers course on edX.
+    url: https://www.edx.org/course/compilers
+    date: "2021-12-22"
