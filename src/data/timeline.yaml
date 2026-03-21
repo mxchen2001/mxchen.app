@@ -14,6 +14,10 @@ apps:
   - emoji: "🍜"
     name: Umami
     url: https://www.umamilabs.app/
+  - emoji: "🍽️"
+    name: Lebi
+    url: https://lebiapp.com/
+    confirm: "Heads up — this app uses paid APIs, so it may cost me a few cents per visit. Still want to check it out?"
 
 # All timeline entries below support a `date` field.
 # Formats: "2024", "2024-03", "2024-03-15"

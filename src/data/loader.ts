@@ -8,6 +8,7 @@ interface App {
   emoji: string;
   name: string;
   url: string;
+  confirm?: string; // if set, show this message before navigating
 }
 
 interface WorkItem {
