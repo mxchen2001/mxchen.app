@@ -20,10 +20,14 @@ apps:
 # Entries are sorted newest-first and grouped by year automatically.
 
 work:
+  - title: Senior Software Engineer @ Roblox
+    desc: San Francisco, CA
+    date: "2026-04"
+    end: present
   - title: Software Engineer @ Roblox
     desc: San Francisco, CA
     date: "2023-08"
-    end: present
+    end: "2026-04"
   - title: Computer Architecture TA
     desc: UT Austin — EE 460N
     date: "2022-08"
