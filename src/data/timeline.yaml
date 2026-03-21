@@ -51,83 +51,99 @@ projects:
     link: https://mxchen.app/cc-fyi
     keywords: [Nextjs, React, TypeScript, TailwindCSS]
     date: "2026"
+    difficulty: 0
   - name: Compensair
     desc: Flight compensation calculator and claim assistant.
     link: https://mxchen.app/compensair
     keywords: [Nextjs, React, TypeScript, TailwindCSS]
     date: "2026"
+    difficulty: 0
   - name: reResume
     desc: Upgrade and find the gaps in your resume.
     link: https://mxchen.app/reresume
     keywords: [Nextjs, React, TypeScript, TailwindCSS]
     date: "2026"
+    difficulty: 1
   - name: Umami Labs
     desc: Food and restaurant companion.
     link: https://www.umamilabs.app/
     keywords: [Nextjs, React, TypeScript]
     date: "2026"
+    difficulty: 2
   - name: Silicon Notes
     desc: A place where I write down interesting things. Successor to Algo Coffee.
     link: https://www.silicon-notes.blog/
     keywords: [Nextjs, React, Markdown]
     date: "2026"
+    difficulty: 2
   - name: Lebi
     desc: A restaurant discovery app that uses your location, weather, and mood to serve personalized picks you swipe through.
     link: https://lebiapp.com
     keywords: [Nextjs, React, TailwindCSS, OpenAI, Google Places API, TypeScript]
     date: "2026"
+    difficulty: 2
   - name: Engblogs
     desc: Wanted an IOS version of engblogs.dev developed by @ishan0102.
     link: https://www.engblogs.dev/
     keywords: [Swift, Nextjs, IOS]
     date: "2023"
+    difficulty: 2
   - name: Algo Coffee
     desc: A simple place where I write down some interesting things. Succeeded by Silicon Notes.
     link: https://www.algorithms.coffee/
     keywords: [React, Github, Algorithms, Markdown, Katex]
     date: "2023"
     archived: true
+    difficulty: 2
   - name: source.css
     desc: Got tired of trying to style websites manually, wanted a consistent theme I can use across my projects.
     link: https://mxchen2001.github.io/source.css/
     keywords: [CSS]
     date: "2023"
+    difficulty: 1
   - name: Vault
     desc: An emulated shell with basic shell-like functionality where I keep some interesting discoveries.
     link: https://mxchen2001.github.io/vault/
     keywords: [React, Shell, Github, Algorithms, Optimization]
     date: "2022"
+    difficulty: 1
   - name: MergePad
     desc: A web based collaborative code editor that uses Automerge (CRDT) to resolve simultaneous conflicts.
     link: https://mxchen2001.github.io/crdt-editor/
     keywords: [React, Socket.io, Automerge, CRDT, P2P]
     date: "2022"
+    difficulty: 2
   - name: Markdown Slides
     desc: A web based slide editor/renderer that uses markdown for quick and easy editing.
     link: https://mxchen2001.github.io/markdown-render/
     keywords: [React, Material UI]
     date: "2021"
+    difficulty: 1
   - name: Flatter.page
     desc: My custom react component library that I use for code blocks. Succeeded by source.css.
     link: https://www.flatter.page
     keywords: [React, Javascript, HTML]
     date: "2021"
     archived: true
+    difficulty: 0
   - name: Snippets
     desc: Chrome extension to keep code snippets in one place.
     link: https://github.com/mxchen2001/snippets
     keywords: [Javascript, HTML, SASS]
     date: "2021"
+    difficulty: 0
   - name: Ascii Diagrams
     desc: A web based app that generates ascii diagrams from simple markup input.
     link: https://mxchen2001.github.io/ascii-diagrams/
     keywords: [React, Material UI]
     date: "2020"
+    difficulty: 0
   - name: Venmo Automation
     desc: Send large scale Venmo transactions using a spreadsheet.
     link: https://github.com/mxchen2001/Venmo-Automation
     keywords: [ElectronJS, Python]
     date: "2020"
+    difficulty: 1
 
 school_projects:
   - name: x86 Processor in Structural Verilog
@@ -135,26 +151,31 @@ school_projects:
     link: http://users.ece.utexas.edu/~patt/22s.382N/problemset/project/spec.html
     keywords: [Verilog, x86, Microarchitecture]
     date: "2022-04"
+    difficulty: 5
   - name: Pictionary
     desc: Play a game of pictionary with an AI.
     link: https://github.com/ishan0102/pictionary
     keywords: [Computer Vision, Python]
     date: "2022-03"
+    difficulty: 3
   - name: Commentary
     desc: Sentiment analysis of tweet replies.
     link: https://twittercommentary.netlify.app/
     keywords: [NLP, Machine Learning, Python]
     date: "2021"
+    difficulty: 3
   - name: PINTOS/MOS
     desc: A hobby operating system built for x86, inspired by PINTOS labs.
     link: https://github.com/mxchen2001/mos
     keywords: [NASM, C, Makefile]
     date: "2021"
+    difficulty: 4
   - name: Hack TX
     desc: NLP app using Google's NLP engine to give feedback for job interviews.
     link: https://github.com/ishan0102/hacktx-20
     keywords: [React, Material UI, Python]
     date: "2020-10"
+    difficulty: 2
 
 school:
   - semester: Fall 2022

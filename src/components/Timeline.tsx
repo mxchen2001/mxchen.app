@@ -55,6 +55,44 @@ const labelColor = {
   blog: "text-purple-400/50",
 } as const;
 
+const barHeights = [4, 7, 10, 13];
+
+const difficultyLabel = ["complexity 0/4", "complexity 1/4", "complexity 2/4", "complexity 3/4", "complexity 4/4", "complexity 5/4"];
+
+function SignalBars({ level, color }: { level: number; color: string }) {
+  const isOverflow = level >= 5;
+  const filledBars = isOverflow ? 4 : level;
+
+  return (
+    <div className="relative group flex items-end gap-[2px] cursor-default">
+      {barHeights.map((h, i) => (
+        <div
+          key={i}
+          className={`w-[3px] rounded-[0.5px] ${
+            i < filledBars
+              ? isOverflow
+                ? "bg-red-500 animate-pulse"
+                : color
+              : "bg-white/10"
+          }`}
+          style={{ height: h }}
+        />
+      ))}
+      {isOverflow && (
+        <span className="text-[8px] text-red-500 font-bold leading-none ml-[1px]">!</span>
+      )}
+      <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-1.5 px-1.5 py-0.5 text-[8px] uppercase tracking-widest text-white/70 bg-white/10 rounded whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
+        {difficultyLabel[level]}
+      </span>
+    </div>
+  );
+}
+
+const signalColor = {
+  project: "bg-emerald-700",
+  "school-project": "bg-amber-500",
+} as const;
+
 const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 function formatDateLabel(d: string): string {
@@ -171,6 +209,7 @@ function ItemCard({ item }: { item: TimelineItem }) {
 
   if (item.type === "project" || item.type === "school-project") {
     const archived = item.project.archived;
+    const difficulty = item.project.difficulty;
     return (
       <div className={`border-l-2 ${accent[item.type]} pl-3 py-1 ${archived ? "opacity-50" : ""}`}>
         <div className="flex items-center gap-2 mb-1">
@@ -178,6 +217,9 @@ function ItemCard({ item }: { item: TimelineItem }) {
             <span className={`text-[9px] uppercase tracking-widest ${labelColor[item.type]}`}>
               {tl}
             </span>
+          )}
+          {difficulty != null && (
+            <SignalBars level={difficulty} color={signalColor[item.type]} />
           )}
           {archived && (
             <span className="text-[8px] uppercase tracking-widest px-1.5 py-0.5 border border-white/20 text-white/40 rounded">

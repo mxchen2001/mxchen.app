@@ -24,6 +24,7 @@ interface ProjectItem {
   keywords: string[];
   date: string;
   archived?: boolean;
+  difficulty?: number; // 1–4, rendered as phone signal bars
 }
 
 interface SemesterItem {
