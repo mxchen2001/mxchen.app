@@ -50,6 +50,12 @@ work:
     end: "2021-08"
 
 projects:
+  - name: Kata 型
+    desc: A language for compiling and decompiling structured prompts into executable LLM plans.
+    link: https://github.com/mxchen2001/kata
+    keywords: [Python, OpenAI, Anthropic, Compiler]
+    date: "2026-05"
+    difficulty: 5
   - name: cc-fyi
     desc: Credit card rewards optimizer and comparison tool.
     link: https://mxchen.app/cc-fyi
